@@ -8,6 +8,8 @@ console.log('length=' + values.length)
 
 ## Node v16.18.0
 
+`node index.js`
+
 ```
 [
   {
@@ -60,6 +62,9 @@ length=7
 
 ## Node v18.10.0
 
+`node index.js`
+
+
 ```
 [
   {
@@ -110,6 +115,8 @@ length=7
 
 
 ## Deno
+
+`deno run index.js`
 
 ```
 deno 1.26.1 (release, x86_64-apple-darwin)
