@@ -135,3 +135,44 @@ length=7
 ]
 length=5
 ```
+
+
+## StackBlitz Node v16.14.2
+
+[https://stackblitz.com/edit/node-jcksgw?file=index.js](https://stackblitz.com/edit/node-jcksgw?file=index.js)
+
+```
+[
+  {
+    segment: 'ម៉ាស្ទ័រ',
+    index: 0,
+    input: 'ម៉ាស្ទ័រ សុគី ស៊ុប',
+    isWordLike: true
+  },
+  {
+    segment: ' ',
+    index: 8,
+    input: 'ម៉ាស្ទ័រ សុគី ស៊ុប',
+    isWordLike: false
+  },
+  {
+    segment: 'សុគី',
+    index: 9,
+    input: 'ម៉ាស្ទ័រ សុគី ស៊ុប',
+    isWordLike: true
+  },
+  {
+    segment: ' ',
+    index: 13,
+    input: 'ម៉ាស្ទ័រ សុគី ស៊ុប',
+    isWordLike: false
+  },
+  {
+    segment: 'ស៊ុប',
+    index: 14,
+    input: 'ម៉ាស្ទ័រ សុគី ស៊ុប',
+    isWordLike: true
+  }
+]
+length=5
+```
