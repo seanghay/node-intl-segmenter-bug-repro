@@ -1,3 +1,4 @@
+Linked issue: https://github.com/nodejs/node/issues/44988
 
 Inconsistent behavior of Node.js `Intl.Segmenter`.
 
