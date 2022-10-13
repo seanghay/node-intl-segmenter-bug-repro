@@ -1,3 +1,4 @@
+
 Inconsistent behavior of Node.js `Intl.Segmenter`.
 
 ```js
@@ -5,6 +6,13 @@ const values = [...new Intl.Segmenter("km", { granularity: "word" }).segment('áž
 console.log(values)
 console.log('length=' + values.length)
 ```
+
+## Platform
+
+```
+Darwin Seanghay-Macbook.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64
+```
+
 
 ## Node v16.18.0
 
