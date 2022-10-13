@@ -18,7 +18,7 @@ Darwin Seanghay-Macbook.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20
 
 `node index.js`
 
-```
+```js
 [
   {
     segment: 'ម៉ាស្',
@@ -63,7 +63,7 @@ Darwin Seanghay-Macbook.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20
     isWordLike: true
   }
 ]
-length=7
+// length=7
 ```
 
 ---
@@ -73,7 +73,7 @@ length=7
 `node index.js`
 
 
-```
+```js
 [
   {
     segment: 'ម៉ាស្',
@@ -118,7 +118,7 @@ length=7
     isWordLike: true
   }
 ]
-length=7
+// length=7
 ```
 
 
@@ -133,7 +133,7 @@ length=7
 >typescript 4.8.3
 >```
 
-```
+```js
 [
   { segment: "ម៉ាស្ទ័រ", index: 0, input: "ម៉ាស្ទ័រ សុគី ស៊ុប", isWordLike: true },
   { segment: " ", index: 8, input: "ម៉ាស្ទ័រ សុគី ស៊ុប", isWordLike: false },
@@ -141,7 +141,7 @@ length=7
   { segment: " ", index: 13, input: "ម៉ាស្ទ័រ សុគី ស៊ុប", isWordLike: false },
   { segment: "ស៊ុប", index: 14, input: "ម៉ាស្ទ័រ សុគី ស៊ុប", isWordLike: true }
 ]
-length=5
+// length=5
 ```
 
 
@@ -149,7 +149,7 @@ length=5
 
 [https://stackblitz.com/edit/node-jcksgw?file=index.js](https://stackblitz.com/edit/node-jcksgw?file=index.js)
 
-```
+```js
 [
   {
     segment: 'ម៉ាស្ទ័រ',
@@ -182,5 +182,5 @@ length=5
     isWordLike: true
   }
 ]
-length=5
+// length=5
 ```
