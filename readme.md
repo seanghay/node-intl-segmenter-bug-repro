@@ -1,10 +1,10 @@
+Inconsistent behavior of Node.js `Intl.Segmenter`.
 
 ```js
 const values = [...new Intl.Segmenter("km", { granularity: "word" }).segment('ម៉ាស្ទ័រ សុគី ស៊ុប')]
 console.log(values)
 console.log('length=' + values.length)
 ```
-
 
 ## Node v16.18.0
 
@@ -118,12 +118,12 @@ length=7
 
 `deno run index.js`
 
-```
-deno 1.26.1 (release, x86_64-apple-darwin)
-v8 10.7.193.3
-typescript 4.8.3
-```
-
+> versions
+>```
+>deno 1.26.1 (release, x86_64-apple-darwin)
+>v8 10.7.193.3
+>typescript 4.8.3
+>```
 
 ```
 [
